@@ -10,11 +10,7 @@ stores.products.load().then(() => {
         <Provider stores={stores}>
             <App />
         </Provider>,
-        document.querySelector('#app'));
-
-        stores.notifications.add('lohPidar')
-        stores.notifications.add('lohPidarTi')
-        stores.notifications.add('lohPidarJa')
+        document.querySelector('#app')); 
 })
 
 stores.cart.load()
